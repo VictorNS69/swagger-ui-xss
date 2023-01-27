@@ -1,8 +1,8 @@
 {
-    "url": "https://gist.githubusercontent.com/VictorNS69/9d1685893edd90d37a222ffd9a604a08/raw/c26f713b2e12b7336d0b9ea44dbfcfa899a2298e/xss.yaml",
+    "url": "https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/xss-domain.yaml",
     "urls": [
         {
-            "url": "https://gist.githubusercontent.com/VictorNS69/9d1685893edd90d37a222ffd9a604a08/raw/c26f713b2e12b7336d0b9ea44dbfcfa899a2298e/xss.yaml",
+            "url": "https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/xss-domain.yaml",
             "name": "XSS payload"
         }
     ]
