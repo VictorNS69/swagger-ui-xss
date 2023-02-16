@@ -1,0 +1,4 @@
+Definitions   
+    Type: string   
+    Description: prints xss   
+    Default: <script>console.log(‘000000000000000000dad0000000000000000000');</script>
