@@ -1,11 +1,10 @@
-
-swagger: '2.0'
+swagger: "2.0"
 securityDefinitions:
   a:
     type: oauth2
     authorizationUrl: javascript:alert(document.domain)//
 info:
-  version: "0.0.1"
+  version: "2.0"
   title: XSS Authorize test
   description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script> alert(document.domain)</script>"></form>
 paths:
