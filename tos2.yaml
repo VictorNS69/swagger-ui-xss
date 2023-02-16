@@ -2,9 +2,9 @@ swagger: "2.0"
 info: 
   title: "xss javascript:alert(document.domain)"
   description: "Please to click Terms of service"
-  termsOfService: "javascript:alert(document.domain)"
+  termsOfService: "j&#97v&#97script:&#97lert('xss')"
   contact: 
     name: "API Support"
-    url: "javascript:alert(document.domain)"
-    email: "javascript:alert(document.domain)"
+    url: "j&#97v&#97script:&#97lert('xss')"
+    email: "j&#97v&#97script:&#97lert('xss')"
   version: "1.0.1"
