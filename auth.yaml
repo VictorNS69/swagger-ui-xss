@@ -1,4 +1,5 @@
 swagger: "2.0"
+# Step 1 - define the security scheme
 components:
   securitySchemes:
     oAuthSample:    # <---- arbitrary name
@@ -11,6 +12,11 @@ components:
           scopes:
             read_pets: read your pets
             write_pets: modify pets in your account
+# Step 2 - apply security globally...
+security: 
+  - oAuthSample: 
+    - write_pets
+    - read_pets
 info:
   version: "2.0"
   title: XSS Authorize test
