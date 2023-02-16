@@ -1,0 +1,18 @@
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
+info:
+  version: "0.0.1"
+  title: javascript:alert(document.domain)//
+  description: Please Authorize!
+contact: 
+    name: "API Support",
+    url: "javascript:alert(document.cookie)",
+    email: "javascript:alert(document.cookie)"
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
