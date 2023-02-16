@@ -1,6 +1,7 @@
 swagger: "2.0"
 info: 
-  title: 'xss /*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert("XSS")//>\x3e'
+  title: |
+    <img src=x onerror=alert(1/><img src=y><)>
   description: "Please to click Terms of service"
   termsOfService: "a%3D'ale';b%3D'rt(document.cookie)';Function(a%2Bb)``;%2F%2F"
   contact: 
