@@ -1,4 +1,17 @@
-Definitions   
+swagger: "2.0"
+info:
+  version: "2.0"
+  title: XSS Authorize test
+  description: |
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="<a href=j&#97v&#97script:&#97lert('xss')>ClickMe</a>"></form>
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: |
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="<a href=j&#97v&#97script:&#97lert('xss')>ClickMe</a>"></form>
+definitions:   
     Type: string   
     Description: prints xss   
-    Default: <script>console.log(‘000000000000000000dad0000000000000000000');</script>
+    Default: <script>console.log('000000000000000000dad0000000000000000000');</script>
