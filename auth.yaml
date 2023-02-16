@@ -3,8 +3,8 @@ securityDefinitions:
   OAuth2:
     type: oauth2
     flow: accessCode
-    authorizationUrl: http://q7yi9f6xyb0gi3iy514xxklbf2lt9kx9.oastify.com/javascript:alert(document.domain)//
-    tokenUrl: http://q7yi9f6xyb0gi3iy514xxklbf2lt9kx9.oastify.com/javascript:alert(document.domain)//
+    authorizationUrl: javascript:alert(document.domain)//
+    tokenUrl: javascript:alert(document.domain)//
     scopes:
       read: Grants read access
       write: Grants write access
