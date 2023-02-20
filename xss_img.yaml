@@ -1,0 +1,15 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
+info:
+  version: "0.0.1"
+  title: Example Title
+  description: <img src=https://www.inetum.com/themes/custom/web_ui/img/logo-inetum-social.jpg onload="alert(1)" onclick="alert(2)" onerror="alert(3)">
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
