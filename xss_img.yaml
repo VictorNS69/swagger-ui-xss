@@ -4,9 +4,9 @@ securityDefinitions:
     type: oauth2
     authorizationUrl: javascript:alert(document.domain)//
 info:
-  version: "0.0.1"
-  title: Example Title
-  description: <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onload="alert(1)" onclick="alert(2)" onerror="alert(3)">
+  version: "1.0.0"
+  title: XSS img test
+  description: onload="alert(1)" <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
 paths:
   /:
     get:
