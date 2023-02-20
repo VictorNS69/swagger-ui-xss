@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: Example Title
-  description: <img src=https://www.inetum.com/themes/custom/web_ui/img/logo-inetum-social.jpg onload="alert(1)" onclick="alert(2)" onerror="alert(3)">
+  description: <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onload="alert(1)" onclick="alert(2)" onerror="alert(3)">
 paths:
   /:
     get:
