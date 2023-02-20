@@ -1,0 +1,5 @@
+swagger: "2.0"
+info:
+  version: "1.0.1"
+  title: XSS img test
+  description: <img src="https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png" onload="alert(1)" onclick="alert(2)" onerror="alert(3)"> 
